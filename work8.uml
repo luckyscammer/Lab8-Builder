@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>work8</OriginalElement>
+  <nodes>
+    <node x="637.0" y="222.5">work8.Leaf</node>
+    <node x="-128.5" y="466.5">work8.CompositeBuilder</node>
+    <node x="377.0" y="-13.5">work8.Component</node>
+    <node x="456.0" y="725.5">work8.DFSIterator</node>
+    <node x="357.0" y="419.5">work8.Composite</node>
+    <node x="88.5" y="245.5">work8.BFSIterator</node>
+    <node x="191.5" y="891.0">work8.ConcreteCompositeBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work8.ConcreteCompositeBuilder" target="work8.Component" relationship="TO_ONE">
+      <point x="0.0" y="-97.0" />
+      <point x="341.0" y="148.0" />
+      <point x="429.0" y="148.0" />
+      <point x="-52.0" y="61.5" />
+    </edge>
+    <edge source="work8.Leaf" target="work8.Component" relationship="REALIZATION">
+      <point x="0.0" y="-85.5" />
+      <point x="741.0" y="188.0" />
+      <point x="541.0" y="188.0" />
+      <point x="541.0" y="148.0" />
+      <point x="533.0" y="148.0" />
+      <point x="52.0" y="61.5" />
+    </edge>
+    <edge source="work8.ConcreteCompositeBuilder" target="work8.Composite" relationship="CREATE">
+      <point x="99.66666666666666" y="-97.0" />
+      <point x="440.66666666666663" y="708.0" />
+      <point x="481.0" y="708.0" />
+      <point x="0.0" y="108.5" />
+    </edge>
+    <edge source="work8.ConcreteCompositeBuilder" target="work8.Leaf" relationship="CREATE">
+      <point x="99.66666666666666" y="-97.0" />
+      <point x="440.66666666666663" y="708.0" />
+      <point x="481.0" y="708.0" />
+      <point x="481.0" y="688.0" />
+      <point x="741.0" y="688.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="work8.BFSIterator" target="work8.Component" relationship="TO_MANY">
+      <point x="0.0" y="-62.5" />
+      <point x="201.0" y="208.0" />
+      <point x="341.0" y="208.0" />
+      <point x="341.0" y="148.0" />
+      <point x="429.0" y="148.0" />
+      <point x="-52.0" y="61.5" />
+    </edge>
+    <edge source="work8.ConcreteCompositeBuilder" target="work8.CompositeBuilder" relationship="REALIZATION">
+      <point x="-99.66666666666666" y="-97.0" />
+      <point x="241.33333333333337" y="868.0" />
+      <point x="21.0" y="868.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="work8.Composite" target="work8.Component" relationship="REALIZATION">
+      <point x="62.0" y="-108.5" />
+      <point x="543.0" y="188.0" />
+      <point x="541.0" y="188.0" />
+      <point x="541.0" y="148.0" />
+      <point x="533.0" y="148.0" />
+      <point x="52.0" y="61.5" />
+    </edge>
+    <edge source="work8.Composite" target="work8.Component" relationship="TO_MANY">
+      <point x="-62.0" y="-108.5" />
+      <point x="419.0" y="208.0" />
+      <point x="341.0" y="208.0" />
+      <point x="341.0" y="148.0" />
+      <point x="429.0" y="148.0" />
+      <point x="-52.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8" showDependencies="true" x="358.0" y="544.125" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
